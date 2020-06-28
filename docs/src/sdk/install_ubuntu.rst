@@ -57,7 +57,7 @@ Ubuntu 安装
 
 .. tip::
 
-  如果需要安装ROS，可以不用安装OpenCV/PCL, 以防兼容性问题。
+  如果需要安装ROS，可以不用安装OpenCV/PCL, 以防兼容性问题。SDK默认基于OpenCV3.3.1(ROS Kinetic自带OpenCV版本)编译。同时我们也提供基于OpenCV3.４.３编译的库，在<IMSEE-SDK>/lib/others文件夹中。如果客户想基于该版本编译，请在相应文件夹下替换。详细可咨询技术支持。
   OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html>`_ 。或参考如下命令：
 
   .. code-block:: bash

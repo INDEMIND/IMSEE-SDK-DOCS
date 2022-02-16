@@ -26,7 +26,7 @@ Windows 源码安装
 -----------
 * CMake(3.0以上)(需要支持vs2019)
 * Visual Studio 2019
-* opencv3.４.３
+* opencv3.3.1
 * IMSEE-SDK
 
 配置准备

@@ -80,7 +80,7 @@ subprocess.call('doxygen', shell=True)
 
 # -- Options for HTML output -------------------------------------------------
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
+if on_rtd:  # only import and set the theme if we're building docs locally
     import sphinx_rtd_theme
 
     # The theme to use for HTML and HTML Help pages.  See the documentation for
